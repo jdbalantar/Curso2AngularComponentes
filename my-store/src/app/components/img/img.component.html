@@ -1,0 +1,4 @@
+<img width="200" [src]="img" *ngIf="img; else elseImg">
+<ng-template #elseImg>
+  <img src="https://protkd.com/wp-content/uploads/2017/04/default-image-620x600.jpg">
+</ng-template>
